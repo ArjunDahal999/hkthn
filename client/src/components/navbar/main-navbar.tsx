@@ -7,11 +7,8 @@ import Link from 'next/link';
 
 import { useDebouncedState } from '@mantine/hooks';
 
-import { PlayCircleIcon } from 'lucide-react';
-
 import { MainLogo } from '../../../public/images';
 import AutoSuggestionBox from '../auto-suggestion-box';
-import { Button } from '../ui/button';
 import { Input } from '../ui/input';
 import { Label } from '../ui/label';
 
@@ -60,10 +57,6 @@ const MainNavbar = () => {
               </div>
             </div>
           </form>
-
-          <Button className="border-none text-primary" variant={'outline'}>
-            Login
-          </Button>
         </div>
       </div>
     </>
