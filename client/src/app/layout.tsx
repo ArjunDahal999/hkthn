@@ -3,7 +3,6 @@ import localFont from 'next/font/local';
 
 import './globals.css';
 
-import BackgroundBlob from '@/components/animation/blob';
 import MainNavbar from '@/components/navbar/main-navbar';
 import Provider from '@/components/provider/provider';
 import { ThemeToggle } from '@/components/theme/theme-toggle';
